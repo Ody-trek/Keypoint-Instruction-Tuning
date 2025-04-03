@@ -82,17 +82,6 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 
 ## 📜 Citation
 
-If you find this project useful in your research, please cite our paper:
-
-```
-@article{yourcitation2024,
-  title={Keypoint-Integrated Instruction-Following Data Generation for Enhanced Human Pose and Action Understanding in Multimodal Models},
-  author={Your Name},
-  journal={Conference/Journal Name},
-  year={2024}
-}
-```
-
 ---
 
 ## 🙌 Contributions & Issues
