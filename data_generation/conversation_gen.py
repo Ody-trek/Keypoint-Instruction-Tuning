@@ -28,7 +28,7 @@ def generate_conversation_data():
 
                 for item in annotations_group:
                     fewshot_samples.append({
-                        'context': f"What can be described by an image with an image ID of {item['image_id']}?",
+                        'context': f"What can be described in the image?",
                         'response': item['caption']
                     })
 
