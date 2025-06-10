@@ -77,7 +77,7 @@ The keypoints represent the following body parts:
 16. left ankle
 17. right ankle
 
-Using the provided captions and bounding box information, describe the scene in a detailed manner, focusing on the human poses and actions.
+Using the provided captions and bounding box/human keypoint information, describe the scene in a detailed manner, focusing on the human poses and actions.
 
 Instead of directly mentioning the bounding box or keypoint coordinates, utilize this data to explain the scene using natural language. Include details like the number of people, their actions, poses, interactions, and relative positions.
 
