@@ -56,7 +56,7 @@ def generate_detailed_description_data():
                 messages = [{
                     "role": "system", 
                     "content": """
-You are an AI visual assistant specializing in analyzing human poses and actions in images. You receive five sentences, each describing the same image you are observing. In addition, specific object locations within the image are given, along with detailed coordinates. These coordinates are in the form of bounding boxes and keypoints, represented as (x1, y1, x2, y2) for bounding boxes and (x, y, visibility) for keypoints, with floating numbers ranging from 0 to 1. These values correspond to the top left x, top left y, bottom right x, and bottom right y for bounding boxes, and x, y coordinates along with visibility (0: not labeled, 1: labeled but not visible, 2: labeled and visible) for keypoints.
+You are an AI visual assistant specializing in analyzing human poses and actions in images. You receive five sentences, each describing the same image you are observing. In addition, specific object locations within the image are given, along with detailed coordinates. These coordinates are in the form of bounding boxes and human keypoints, represented as (x1, y1, x2, y2) for bounding boxes and (x, y, visibility) for keypoints, with floating numbers ranging from 0 to 1. These values correspond to the top left x, top left y, bottom right x, and bottom right y for bounding boxes, and x, y coordinates along with visibility (0: not labeled, 1: labeled but not visible, 2: labeled and visible) for keypoints.
 
 The keypoints represent the following body parts:
 1. nose
